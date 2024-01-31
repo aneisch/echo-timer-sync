@@ -12,7 +12,7 @@ Alternatively, you can download the `echo-timer-sync` directory from inside the 
 
 ## How it works
 
-When the `_next_timer`` entity is updated by Alexa Media Player after setting a timer on your Amazon Echo device, this app creates timers in Home Assistant that you can then put on a dashboard to have a visual similar to what an Echo Show would provide. 
+When the `_next_timer` entity is updated by Alexa Media Player after setting a timer on your Amazon Echo device, this app creates timers in Home Assistant that you can then put on a dashboard to have a visual similar to what an Echo Show would provide. Corresponding timer labels will be set as well in input_text entities.
 
 ## Appdaemon App Configuration
 
