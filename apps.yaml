@@ -1,0 +1,7 @@
+Kitchen Timer Sync:
+  module: echo_timer_sync
+  class: TimerSync
+  alexa_timer: sensor.kitchen_next_timer
+  timer_prefix: kitchen_alexa
+  # how many timer. entities are in home assistant?
+  timer_count: 5
