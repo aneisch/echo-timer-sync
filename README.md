@@ -1,4 +1,4 @@
-# Follow Me App
+# Echo Timer Sync App
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 <br><a href="https://www.buymeacoffee.com/aneisch" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" width="150px" height="35px" alt="Buy Me A Coffee" style="height: 35px !important;width: 150px !important;" ></a>
 
@@ -6,9 +6,9 @@ _An app to make visual countdown timers via your Amazon Echo devices_
 
 ## Installation
 
-This app is best installed using [HACS](https://github.com/custom-components/hacs), so that you can easily track and download updates. You *must* also install and configure the [Alexa Media Player](https://github.com/alandtse/alexa_media_player) component in order to load timers from your Amazon Echo devices. 
+This app is best installed using [HACS](https://github.com/custom-components/hacs), so that you can easily track and download updates. You ***must** also install and configure the [Alexa Media Player](https://github.com/alandtse/alexa_media_player) component in order to load timers from your Amazon Echo devices. 
 
-Alternatively, you can download the `echo-timer-sync` directory from inside the `apps` directory here to your local `apps` directory, then add the configuration to enable the `follow_me` module.
+Alternatively, you can download the `echo-timer-sync` directory from inside the `apps` directory here to your local `apps` directory, then add the configuration to enable the `echo_timer_sync` module.
 
 ## How it works
 
@@ -27,7 +27,7 @@ Kitchen Timer Sync:
 
 ## App Prerequisites in Home Assistant
 
-You must create `timer` and `input_text` entities in Home Assistant that this app will then populate with your Amazon Echo timer information
+You **must** create `timer` and `input_text` entities in Home Assistant that this app will then populate with your Amazon Echo timer information
 
 ```yaml
 timer:
@@ -80,3 +80,4 @@ key | optional | type | default | description
 
 Please feel free to open any issues or feature requests!
 
+![](images/dashboard.png)  
