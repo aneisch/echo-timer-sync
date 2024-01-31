@@ -20,11 +20,11 @@ class TimerSync(hass.Hass):
         new = json.loads(new)
         count = 0
 
-        for i in range(0,timer_count + 1):
+        for i in range(0, self.timer_count + 1):
             self.call_service("timer/cancel", entity_id = f"timer.{self.timer_prefix}_{i}")
 
         for timer in new:
-            if count > timer_count:
+            if count > self.timer_count:
                 return
             count += 1
             timer = timer[1]
